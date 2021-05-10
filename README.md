@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img alt="DisneyPlusClone" title="#DisneyPlusClone" src="public/images/logo.svg" width="250px" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center"> 
+	Disney+ Clone 🚀 
+</h4>
 
-## Available Scripts
+<p align="center">
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-use">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="Moveit" src="public/images/cover.png" width="400px">
+</p>
 
-### `yarn start`
+## 💻 Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This is a simple Disney+ clone project which i used to improve my css and layout skills.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h1 align="center">
+    <img alt="Example" title="Example" src="git/capa.png" width="500px" />
+</h1>
 
-### `yarn test`
+## :rocket: Technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project was developed with the following technologies:
 
-### `yarn build`
+- [React][reactjs]
+- [Redux][redux]
+- [Firebase][fireabse]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :information_source: How To Use
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To clone and run this application, you'll need [Git](https://git-scm.com) + [Yarn][yarn] installed on your computer.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+From your command line:
 
-### `yarn eject`
+### Install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+# Clone this repository
+$ git clone https://github.com/kevinnog/disney-plus-clone
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Go into the repository
+$ cd disney-plus-clone/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Install dependencies
+$ yarn install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Start project
+$ yarn start
+```
 
-## Learn More
+### Environment Variables
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You will also need to create a .env file on the root of your project, and create the firebase variables as shown bellow:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```env
+API_KEY=<appKey>,
+AUTH_DOMAIN=<authDomain>,
+PROJECT_ID=<projectId>,
+STORAGE_BUCKET=<storageBucket>,
+MESSAGING_SENDER_ID=<messagingSenderId>,
+APP_ID=<appId>,
+MEASUREMENT_ID=<measurementId>,
+```
 
-### Code Splitting
+## 🤔 How to contribute
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Make a fork;
+- Create a branch with your feature: `git checkout -b my-feature`;
+- Commit changes: `git commit -m 'feat: My new feature'`;
+- Make a push to your branch: `git push origin my-feature`.
 
-### Analyzing the Bundle Size
+After merging your receipt request to done, you can delete a branch from yours.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## :memo: License
 
-### Making a Progressive Web App
+This project is under the MIT license. See the [LICENSE](https://github.com/kevinnog/disney-plus-clone/blob/master/LICENSE) for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Made by Kevin Nogueira :wave: [Get in touch!](https://www.linkedin.com/in/kevin-nogueira-costa-403536104/)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[redux]: https://expo.io/
+[reactjs]: https://reactjs.org
+[redux]: https://facebook.github.io/react-native/
+[yarn]: https://yarnpkg.com/
