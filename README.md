@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img alt="Moveit" src="public/images/cover.png" width="800px">
+  <img alt="Moveit" src="public/images/git-cover.png" width="800px">
 </p>
 
 ## 💻 Project
