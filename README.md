@@ -15,16 +15,12 @@
 </p>
 
 <p align="center">
-  <img alt="Moveit" src="public/images/cover.png" width="400px">
+  <img alt="Moveit" src="public/images/cover.png" width="800px">
 </p>
 
 ## 💻 Project
 
 This is a simple Disney+ clone project which i used to improve my css and layout skills.
-
-<h1 align="center">
-    <img alt="Example" title="Example" src="git/capa.png" width="500px" />
-</h1>
 
 ## :rocket: Technologies
 
