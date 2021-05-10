@@ -28,7 +28,7 @@ This project was developed with the following technologies:
 
 - [React][reactjs]
 - [Redux][redux]
-- [Firebase][fireabse]
+- [Firebase][firebase]
 
 ## :information_source: How To Use
 
@@ -81,7 +81,8 @@ This project is under the MIT license. See the [LICENSE](https://github.com/kevi
 
 Made by Kevin Nogueira :wave: [Get in touch!](https://www.linkedin.com/in/kevin-nogueira-costa-403536104/)
 
-[redux]: https://expo.io/
+[redux]: https://redux.js.org
 [reactjs]: https://reactjs.org
 [redux]: https://facebook.github.io/react-native/
 [yarn]: https://yarnpkg.com/
+[firebase]: https://firebase.google.com
